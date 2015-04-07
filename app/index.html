@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Play App</title>
+	<meta name="viewport" content="initial-scale=1">
+	<base href="/">
+	<link rel="icon" type="image/x-icone" href="favicon.ico" />
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<!--<script src="js/playappConnect.js" type="text/javascript"></script>-->
+	<script src="js/playappConnect.min.js" type="text/javascript"></script>
+	<script src="js/script.min.js"></script>
+	<link href="styles/reset.min.css" rel="stylesheet" type="text/css" />
+	<link href="styles/main.min.css" rel="stylesheet" type="text/css" />
+	
+	<!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+	<!--[if lt IE 9]><link href="styles/iehack.css" rel="stylesheet" type="text/css" /><![endif]--> 
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1><a href="index.html">PlayApp</a></h1>
+		</div>
+	</header>
+
+	<div class="container bodyContainer">
+		<section id="formSection">
+				<h2>Merci de remplir le formulaire</h2>
+				<div id="status"></div>
+				<form>
+					<div class="formGroup">
+						<label for="lastname">Nom*</label>
+						<input type="text" name="lastname" id="lastname" required>	
+					</div>
+					
+					<div class="formGroup">
+						<label for="firstname">Prenom*</label>
+						<input type="text" name="firstname" id="firstname" required>
+					</div>
+
+					<div class="formGroup">
+						<label for="email">Email*</label>
+						<input type="text" name="email" id="email" required>
+					</div>
+
+					<div class="infoForm">
+						<span>* Champs Obligatoire</span>
+					</div>
+
+					<div class="formGroup customForm">
+						<input type="checkbox" name="checkletter" id="checkletter">
+						<label for="checkletter">Je souhaite recevoir la Newsletter PlayApp</label>
+					</div>
+
+					<div class="formGroup customForm">
+						<label>Je souhaite suivre PlayApp</label>
+						<input type="radio" value="oui" name="newsletter" id="newsletter1"><label for="newsletter1">Oui</label>
+						<input type="radio" value="non" name="newsletter" id="newsletter0"><label for="newsletter0">Non</label>
+					</div>
+
+					<div class="formGroup">	
+						<button id="goPlayApp">Valider</button>
+					</div>	
+				</form>
+
+				<a  href="#" id="retry">Afficher le formulaire</a>
+		</section>
+	
+		<section id="gotSection">
+			<article>
+				<div class="headline">
+					<div class="thumb">
+						<div class="masque">
+							<img src="images/arya.jpg">
+						</div>
+					</div>
+
+					<div class="titles">
+						<h2>Winter is Coming</h2>
+						<h3>Lorem ipsum dolor</h3>	
+					</div>
+					
+				</div>
+				<div class="articleContent">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit libero eget ipsum venenatis iaculis. Ut ornare libero lorem, vel ultrices dolor viverra ac. Maecenas feugiat tempor ex. Proin et felis velit. Maecenas tempor pretium velit ac fringilla. Sed id felis lorem. Cras interdum fermentum leo, efficitur gravida tortor hendrerit sed. Morbi ut dapibus turpis.
+					</p>
+					<p>
+						Nulla facilisi. Praesent eu egestas ligula. Praesent nec fermentum purus, dictum accumsan ante. Aliquam vitae varius elit. Nam fermentum porttitor dignissim. In vitae vestibulum enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean venenatis, eros condimentum lobortis commodo, sem lectus mattis eros, id vehicula tellus mauris eget velit. Curabitur sed viverra ex, a pretium est. Donec elit tellus, pellentesque eget tellus quis, porta pharetra tellus. Maecenas eget dolor velit. Quisque vestibulum elit et ante rutrum rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+					</p>
+					<p>
+						Nam lobortis arcu non risus vestibulum, eget fermentum est dignissim. Nunc bibendum cursus mattis. Quisque a nisl ac augue cursus mattis. Morbi accumsan, ex nec vulputate venenatis, lectus nunc posuere risus, et faucibus eros turpis non enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse consectetur felis eleifend neque cursus, sed condimentum dui mollis. Fusce placerat, massa vitae tincidunt euismod, quam purus condimentum nisl, nec varius tortor augue sit amet tortor. Donec ornare eu nibh vel sodales. Mauris rutrum eget urna vitae semper. Cras vel lorem et eros sodales pellentesque. Morbi urna magna, laoreet tincidunt tellus in, varius tristique augue. Fusce semper ex felis, ut auctor mi hendrerit ac.
+					</p>
+					<p>
+						Mauris id hendrerit justo. Quisque tempus pretium tempus. Phasellus eget metus ac risus rutrum pretium non in nulla. Nullam volutpat viverra nisl eu scelerisque. Vivamus et ex at nisi congue aliquet in vitae massa. Donec varius id mi id facilisis. Integer viverra ligula ante, quis feugiat augue placerat sed. Phasellus tempor ultricies libero, a euismod sapien eleifend eget.
+					</p>
+					<p>
+						Phasellus tincidunt, metus quis molestie ullamcorper, dolor lectus tristique augue, eu malesuada augue nibh sed arcu. Ut varius eros enim, ac pellentesque mi placerat ac. Praesent tincidunt sed felis a luctus. Aenean vestibulum sapien arcu, nec pharetra tortor auctor sit amet. Proin hendrerit eleifend sem, et pharetra erat vehicula ac. Nulla venenatis, nibh ac pellentesque auctor, mi quam eleifend tellus, congue posuere nulla quam nec sapien. Donec condimentum a purus ut pharetra. Aenean laoreet augue non nunc faucibus hendrerit in ut dui.
+					</p>
+				</div>
+			</article>		
+		</section>
+	</div>
+	<div id="fb-root"></div>
+</body>

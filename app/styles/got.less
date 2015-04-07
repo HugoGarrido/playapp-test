@@ -1,0 +1,74 @@
+#gotSection{
+	//margin-left: 16px;
+
+	article{
+		//width: 600px;
+		//width: 100%;
+		height: 406px;
+		font-family: @PTSans;
+		margin: 0 auto 54px; 
+		background: #fff;
+		border-radius: 4px;
+		overflow-y: scroll;
+		padding: 22px 12px 0px 22px;
+		border-bottom: 16px solid #fff;
+
+		.headline{
+			position: relative;
+			.thumb{
+				position: relative;
+				margin-bottom: 24px;
+				.masque{
+					background: url('../images/arya.jpg') no-repeat center;
+					border-radius: 50%;
+					width: 122px;
+					height: 122px;
+					img{
+						opacity: 0;
+					}
+				}
+			}
+			.titles{
+				position: absolute;
+				left: 132px;
+				top: 30%;
+
+				h2{
+					font-size: 24px;
+					font-size: 1.6em;
+					color: @PlayAppArticleTitle;
+				}
+				h3{
+					font-size: 14px;
+					font-size: 0.9em;
+					color: @PlayAppArticleSubTitle;
+				}
+			}
+		}
+
+		p{
+			font-size: 14px;
+			font-size: 0.9em;
+			margin-bottom: 25px;
+			color: @PlayAppArticleBody;
+		}
+	}
+
+
+	::-webkit-scrollbar {
+	    width: 12px;
+	    padding-left: 15px;
+	}
+	 
+	::-webkit-scrollbar-track {
+		background: #1fbea9;
+		background: #1be5c9;
+	   
+	}
+	 
+	::-webkit-scrollbar-thumb {
+	    background: #1be5c9;
+	    background: #1fbea9;
+	    //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+	}
+}
