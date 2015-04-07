@@ -1,0 +1,11 @@
+#formSection FORM .customForm INPUT#checkletter, #formSection FORM .customForm INPUT#newsletter1, #formSection FORM .customForm INPUT#newsletter0{
+	border: none;
+	background: none;
+	width: auto;
+	height: auto;
+}
+
+#gotSection{
+	width: 636px;
+	margin: 0 auto;
+}
